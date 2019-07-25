@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6C172D9C-64FE-6408-E37F-8E913C865692}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Eventpiont.cs" />
+     <Compile Include="Assets\Plane_Gameclass.cs" />
+     <Compile Include="Assets\Script\BOX\box_game.cs" />
+     <Compile Include="Assets\Script\BOX\box_movefree.cs" />
+     <Compile Include="Assets\Script\BOX\box_movetoPlayer.cs" />
+     <Compile Include="Assets\Script\Enemy\AT_enemy.cs" />
+     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Script\Enemy\Enmeyfactory.cs" />
+     <Compile Include="Assets\Script\Enemy\GZ_enemy\GZ_enemy.cs" />
+     <Compile Include="Assets\Script\Enemy\GZ_enemy\JG_enemy.cs" />
+     <Compile Include="Assets\Script\Enemy\voiceenemy.cs" />
+     <Compile Include="Assets\Script\GameGround.cs" />
+     <Compile Include="Assets\Script\Hit\HaHited.cs" />
+     <Compile Include="Assets\Script\Player\Player.cs" />
+     <Compile Include="Assets\Script\UI\UI_ChiocePlane.cs" />
+     <Compile Include="Assets\Script\UI\UI_Win.cs" />
+     <Compile Include="Assets\Script\UI\UI_choice.cs" />
+     <Compile Include="Assets\Script\UI\UI_loadUI.cs" />
+     <Compile Include="Assets\Script\UI\UI_mian\UI_main.cs" />
+     <Compile Include="Assets\Script\UI\UI_mian\UI_mianleve.cs" />
+     <Compile Include="Assets\Script\UI\UI_plane.cs" />
+     <Compile Include="Assets\Script\UI\UI_planeqhua.cs" />
+     <Compile Include="Assets\Script\buttle\Enmey_buttle.cs" />
+     <Compile Include="Assets\Script\buttle\Palyer_bullet.cs" />
+     <Compile Include="Assets\Script\buttle\angle_buttle.cs" />
+     <Compile Include="Assets\Script\buttle\buttle.cs" />
+     <Compile Include="Assets\Script\buttle\buttle_attack.cs" />
+     <Compile Include="Assets\Script\buttle\lethality_buttle.cs" />
+     <Compile Include="Assets\Script\buttle\rotate_bullet.cs" />
+     <Compile Include="Assets\Script\buttle\sandan.cs" />
+     <Compile Include="Assets\Script\buttle\shell.cs" />
+     <Compile Include="Assets\Script\initMain_level.cs" />
+     <Compile Include="Assets\Script\playermoveA.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{66C34B3C-5338-7B4B-C6D7-A01B7BBA94E1}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\buttle\buttle.cs">
+    <Files>
+      <File FileName="E:\003cave-run\Assets\CaveRun3D Assets\Scripts\CSharp\Platform.cs" Line="1" Column="1" />
+      <File FileName="E:\003cave-run\Assets\CaveRun3D Assets\Scripts\CSharp\PlatformCreator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\buttle\Palyer_bullet.cs" Line="11" Column="25" />
+      <File FileName="Assets\Script\buttle\shell.cs" Line="7" Column="31" />
+      <File FileName="Assets\Script\buttle\buttle.cs" Line="20" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
